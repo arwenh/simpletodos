@@ -65,7 +65,7 @@ class App extends Component {
     return (
       <div className="container">
         <header>
-          <h1>Todo List ({this.props.incompleteCount})</h1>
+          <h1>Pocket Finance ({this.props.incompleteCount})</h1>
 
 
            <label className="hide-completed">
@@ -84,7 +84,7 @@ class App extends Component {
               <input
                 type="text"
                 ref="textInput"
-                placeholder="Type to add new tasks"
+                placeholder="Type to add new expenses"
               />
             </form> : ''
           }
